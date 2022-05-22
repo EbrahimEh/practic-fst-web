@@ -6,6 +6,8 @@ h1 {
 .templeate {
     display: flex;
     margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 
 }
 
@@ -54,5 +56,55 @@ a:hover {
 
 .templeate1 {
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#strat {
+    text-align: center;
+    color: rgb(62, 240, 13);
+    background-color: antiquewhite;
+    width: 700px;
+    margin-left: 400px;
+    border: 8px solid salmon;
+    border-radius: 20px;
+
+}
+
+#strat:hover {
+    background-color: rgb(237, 27, 90);
+    transition: 2s;
+}
+
+.templet2 {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.last-web1 {
+    width: 50%;
+    margin-left: 62px;
+
+    border-left: 10px solid aqua;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+    width: 40%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 145, 128);
+}
+
+.last-web1 h1:hover {
+    margin-right: 110px;
+    border-radius: 20px;
+    background-color: black;
+    transition: 2s;
 
 }
